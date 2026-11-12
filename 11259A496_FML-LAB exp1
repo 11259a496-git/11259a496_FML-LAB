@@ -1,0 +1,36 @@
+import numpy as np 
+print(np. version ) 
+import numpy as np x=np.arange(2,6).reshape(4) print(x)import numpy as np x=np.arange(2,10).reshape(2,4) print(x)
+import numpy as np x=np.arange(24).reshape(4,3,2) print(x
+import numpy as np arr=np.array([1,2,3,4])
+print(arr[1:3:2])
+print(arr[:3])
+print(arr[::2])
+import numpy as np arr=np.array([0,30,60,90]) print(np.sin(arr)) print(np.cos(arr)) print(np.tan(arr)) Output:
+[ 0. -0.98803162 -0.30481062 0.89399666]
+[ 1. 0.15425145 -0.95241298 -0.44807362]
+[ 0. -6.4053312 0.32004039 -1.99520041]
+ 
+import numpy as np import numpy as np x = np.arange(12, 38)
+print("Original array:") print(x)
+print("Reverse array:") x = x[::-1]
+print(x)
+import numpy as np x = [10, 20, 30]
+print("Original array:") print(x)
+x = np.append(x, [[40, 50, 60], [70, 80, 90]])
+print("After append values to the end of the array:") print(x)
+import numpy as np
+array1 = np.array([0, 10, 20, 40, 60]) print("Array1: ",array1)
+array2 = [10, 30, 40]
+print("Array2: ",array2)
+print("Common values between two arrays:") 
+import numpy as np
+array1 = np.array([0, 10, 20, 40, 60, 80]) print("Array1: ",array1)
+array2 = [10, 30, 40, 50, 70]
+print("Array2: ",array2)
+print("Unique sorted array of values that are in either of the two input arrays:") print(np.union1d(array1, array2))
+Output:
+
+
+
+
