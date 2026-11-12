@@ -1,0 +1,27 @@
+marks = [78, 85, 92, 67, 88, 90, 76]
+print("Highest Mark:", max(marks))
+print("Lowest Mark:", min(marks))
+print("Average Mark:", sum(marks)/len(marks))
+temperature = [30, 32, 31, 29, 35, 34, 33]
+
+print("Maximum Temperature:", max(temperature))
+print("Minimum Temperature:", min(temperature))
+print("Average Temperature:", sum(temperature)/len(temperature))
+Output
+Maximum Temperature: 35
+Minimum Temperature: 29
+Average Temperature: 32.
+sales = [2500, 3000, 2800, 3500, 4000, 3800, 4200]
+print("Total Sales:", sum(sales))
+print("Average Sales:", sum(sales)/len(sales))
+ids = [101, 102, 103, 104, 105, 106]
+
+even = []
+odd = []
+for i in ids:
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+print("Even IDs:", even)
+print("Odd IDs:", odd)
